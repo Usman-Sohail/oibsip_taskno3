@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="tempConvertor.css">
+    <script defer src="tempConvertor.js"> </script>
+</head>
+<body>
+    
+    
+<div class="heading">
+
+    <h1> <strong>Temperature Convertor</strong></h1>
+</div>
+<div class="input">
+    
+    <input type="number" placeholder="Enter temperature" id="inputTemperature" >
+    <input type="text" class="result-input" readonly id="result" placeholder="Result"> 
+
+
+</div>
+<div class='clearButtons'>
+    <div class="clearButton">
+    <button onclick="clearInput()">Clear Input</button>
+  </div>
+    <div class="clearButton">
+    <button onclick="clearResult()">Clear Result</button>
+  </div>
+
+  
+
+</div>
+
+  
+
+<div class="tempOptions">
+
+    <label for="Temperature" id="chooseInput" >Choose <u><i>Input Type</i></u> :</label>
+<select id="temperatures">
+    <option value="" disabled selected>Select an option...</option>
+
+    <option value="celcius">Celcius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+</select>
+
+</div>
+<div class="conversionText">
+    <span id="conversionType"></span>
+</div>
+
+<div class="button">
+<button id="convertButton">Convert</button>
+
+</div>
+
+
+<div class="footer">
+  
+    <footer></footer>
+      <b>Designed by <i>Muhammad Usman Bin Sohail</i> &copy; 2023</b>
+      <br>
+      <b>Contact: usman.sohail1212@gmail.com</b>
+     
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+body{
+    background: linear-gradient(150deg,#1c1d35,#474eaa,#474eaa,#1c1d35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 10px;
+}
+.input{
+
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.input input{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bolder;
+        text-align: center;
+        word-wrap: break-word;
+
+}
+.result-input {
+    min-width: 100px; 
+  }
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 7px rgb(0, 0, 0);
+    
+    
+}
+
+.tempOptions{
+    border-radius: 20px;
+    color: rgb(253, 255, 255);
+    background-color: #3339e6;
+    
+    text-shadow: 2px 3px 7px rgb(0, 0, 0);
+    font-size: 40px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px 100px ;
+
+}
+.tempOptions option{
+    
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.tempOptions select {
+    color: #242530;
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    word-wrap: break-word;
+    word-spacing: normal;
+}
+#chooseInput{
+font-size: 28px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.button button:hover{
+    background-color: #063799;
+
+}
+.button button{
+    border-width: 5px;
+    border-color: #ccd3e2;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 40px;
+    font-size: 40px;
+    height: 80px;
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+    background-color:  #3c5fa4;
+
+}
+
+
+/*media adjustments*/
+
+
+@media (max-width: 689px) {
+    .tempOptions {
+        font-size: 20px;
+        padding: 10px;
+        gap: 10px;
+        margin: 20px 30px;
+    }
+
+    .tempOptions option {
+        font-size: 15px;
+    }
+
+    .tempOptions select {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .input input{
+        height: 50px;
+        width: 180px;
+        font-size: 18px;
+        font-weight: bolder;
+        
+    }
+    .button button{
+        font-size: 30px;
+        height: 70px;
+        width: 220px;
+        margin: 20px;
+    }
+    .heading{
+      
+    font-size: 25px;
+
+    }
+   
+}
+
+.clearButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.clearButton button:hover{
+    background-color: #063799;
+
+}
+.clearButton button{
+    border-width: 1px;
+    border-color: #ccd3e2;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 40px;
+    font-size: 15px;
+    height: 23px;
+    width: 110px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+    background-color:  #3c5fa4;
+
+}
+.clearButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer {
+    border-radius: 30px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(100, 100, 136);
+    color: #eee; 
+    padding: 20px;
+    text-align: center;
+    width: 95%;
+}
+.conversionText{
+    
+    font-size: large;
+    text-align: center;
+    color: #c8c9e3;
+    background-color: #37599c;
+    max-width: fit-content;
+    margin: 0 auto;
+}
